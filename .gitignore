@@ -1,0 +1,97 @@
+# Project artifacts
+**/*.pt
+**/*.ckpt
+**/*.tar.gz
+*.parquet
+*.lock
+**/checkpoints
+**/outputs
+**/rollouts
+**/wandb
+**/playground
+**/wget-log
+**/_build/
+exps
+outputs
+logs
+log
+
+# Project-specific generated directories
+/verl/utils/vla_utils/openvla_oft/robotwin/models/
+/verl/utils/vla_utils/openvla_oft/robotwin/aloha_maniskill_sim/
+
+# Keep robotwin2 seeds tracked, ignore the rest
+/verl/utils/envs/robotwin2/**
+!/verl/utils/envs/robotwin2/seeds/
+!/verl/utils/envs/robotwin2/seeds/**
+
+# Python bytecode and native extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build, packaging, and installer outputs
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+.installed.cfg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test, coverage, and notebook artifacts
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.ipynb_checkpoints
+
+# Local environments and machine-specific config
+.env
+.python-version
+env/
+venv/
+.venv/
+ENV/
+local_settings.py
+celerybeat-schedule
+instance/
+.webassets-cache
+.scrapy
+
+# Documentation and build tools
+docs/_build/
+target/
+
+# IDE, editor, and OS metadata
+.idea/
+.vscode
+.spyderproject
+.ropeproject
+.history/
+.specstory/
+*.swp
+.DS_Store
+
+# Logs and local runtime files
+*.log
+*.mo
+*.pot

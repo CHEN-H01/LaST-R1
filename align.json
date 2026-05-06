@@ -1,0 +1,13 @@
+{
+  "env_vars": {
+    "NCCL_DEBUG": "WARN",
+    "RAY_memory_monitor_refresh_ms": "0",
+    "VLLM_ATTENTION_BACKEND": "XFORMERS",
+    "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
+    "TOKENIZERS_PARALLELISM": "true",
+    "WANDB_API_KEY": ""
+  },
+  "excludes": [
+    "*"
+  ]
+}
