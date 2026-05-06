@@ -20,7 +20,7 @@ Hao Chen, Jiaming Liu, Zhonghao Yan, Nuowei Han, Renrui Zhang, Chenyang Gu, Jial
 
 ## 🔥 News
 
-- [2026/05/06] LaST-R1 is now live on arXiv! The code and model checkpoints are both open source! 🚀 
+- [2026/05/06] LaST-R1 is now live on arXiv! The code and model checkpoints for both simulation SFT and RL are publicly available! 🚀 
 
 ## 📦 Installation
 
