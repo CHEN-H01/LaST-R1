@@ -62,7 +62,7 @@ Our code is built based on [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) and [v
 - `transformers/integrations/sdpa_attention.py`: SDPA attention integration and attention-mask related logic
 
 ## 💡 Usage
-### 🔍 Prepare Warmup SFT Model
+### 🔍 Prepare Warmup SFT Model and Post-RL Models
 
 We release all LIBERO warmup SFT models and post-RL models on [Huggingface 🤗](https://huggingface.co/) as follows:
 - [last-r1-warmup-libero_spatial-oneshot](https://huggingface.co/chenhao01/LaST-R1/tree/main/LaST-R1-Warmup/last-r1-warmup-libero_spatial-oneshot) | [last-r1-rl-libero_spatial](https://huggingface.co/chenhao01/LaST-R1/tree/main/LaST-R1-RL/last-r1-rl-libero_spatial)
