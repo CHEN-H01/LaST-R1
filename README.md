@@ -12,7 +12,7 @@ Hao Chen, Jiaming Liu, Zhonghao Yan, Nuowei Han, Renrui Zhang, Chenyang Gu, Jial
 
 <div align="left">
 
-**🤖The Framework of LaST-R1.** (a) LaST-R1 is a unified VLA model that takes visual observations and language instructions as input, where a vision foundation model provides physically grounded latent targets to guide latent CoT reasoning before action generation. (b) During LAPO RL post-training, LaST-R1 interacts with the environment in a closed loop manner, storing latents, actions, and rewards in a rollout buffer for jointly reshaping the latent and action spaces. It further enables adaptive reasoning by learning to emit the `<latent_end>` token based on predicted probabilities, dynamically adjusting the reasoning horizon across tasks. (c) Through LAPO, LaST-R1 achieves adaptive reasoning lengths across diverse tasks, improving generalization and execution stability.
+**🤖The Framework of LaST-R1.** (a) LaST-R1 VLA is a unified model that takes visual observations and language instructions as input, where a vision foundation model provides physically grounded latent targets to guide latent CoT reasoning before action generation. (b) During LAPO RL post-training, LaST-R1 interacts with the environment in a closed loop manner, storing latents, actions, and rewards in a rollout buffer for jointly reshaping the latent and action spaces. It further enables adaptive reasoning by learning to emit the `<latent_end>` token based on predicted probabilities, dynamically adjusting the reasoning horizon across tasks. (c) Through LAPO, LaST-R1 achieves adaptive reasoning lengths across diverse tasks, improving generalization and execution stability.
 
 </div>
 
